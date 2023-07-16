@@ -1,0 +1,90 @@
+body{
+    font-family: cursive;
+    background-image: url("C:/Users/jaina/Desktop/Aditya/img/abs-ga4ec06fb0_1920.jpg");
+    color: white;
+}
+
+.left{
+    display: inline-block;
+    /*border: 2px solid red;*/
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.left img{
+    width: 100px;
+}
+.left div{
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+}
+.mid{
+    display: block;
+    width: 55%;
+    margin: 20px auto;
+    /*border: 2px solid green;*/
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    display: inline-block;
+    /*border: 2px solid yellow;*/
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: gray;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: cursive;
+}
+.btn:hover{
+    background-color: rgb(107, 107, 107);
+}
+.container{
+    /*border: 2px solid white;*/
+    margin: 106px 80px;
+    padding: 75px;
+    width: 38%;
+    border-radius: 16px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 21px;
+    border-radius: 8px;
+    font-family: cursive;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 90%;
+    margin: 35px auto;
+}
